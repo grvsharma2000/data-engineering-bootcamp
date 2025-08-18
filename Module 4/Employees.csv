@@ -1,0 +1,11 @@
+EmployeeID,Name,Age,Department,Salary,Experience,JoiningDate,PerformanceScore
+101,John Smith,28,IT,50000,3,2019-05-14,85
+102,Sarah Jones,,HR,42000,2,2020-09-18,
+103,Mike Brown,45,Finance,120000,20,2010-11-01,90
+104,Emily Davis,22,IT,,1,2022-07-23,70
+105,David Wilson,29,,48000,4,,88
+106,Jessica Lee,34,Marketing,1500000,10,2015-03-12,95
+107,Tom Clark,40,IT,52000,15,2008-01-30,-10
+108,Anna Scott,30,Finance,60000,,2017-09-09,82
+109,Chris White,38,HR,45000,12,2011-04-05,76
+110,Kate Green,,Marketing,30000,2,2023-02-15,101
