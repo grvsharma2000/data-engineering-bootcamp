@@ -1,0 +1,13 @@
+| order\_id | customer\_name | product    | amount | date       |                                      |
+| --------- | -------------- | ---------- | ------ | ---------- | ------------------------------------ |
+| 1001      | John Smith     | Shoes      | 1200   | 2024-01-05 |                                      |
+| 1001      | John Smith     | Shoes      | 1200   | 2024-01-05 | -- duplicate                         |
+| 1002      | jane doe       | bag        | 250    | 2024-01-07 |                                      |
+| 1003      | NULL           | Watch      | 550    | 2024-01-08 |                                      |
+| 1004      | Mike Ross      | shoes      | -100   | 2024-01-09 | -- negative (invalid)                |
+| 1005      | Anna, Taylor   | Jacket     | 3000   | 01-10-2024 | -- inconsistent date format          |
+| 1006      | john smith     | SHOES      | 1200   | 2024/01/11 | -- case mismatch + inconsistent date |
+| 1007      | Rachel Green   | Bag        | NULL   | 2024-01-12 | -- missing amount                    |
+| 1008      | Chandler Bing  | Headphones | 150    | 2024-01-13 |                                      |
+| 1009      | Ross Geller    | Headphones | 100000 | 2024-01-14 | -- outlier                           |
+| 1010      | Monica Geller  | Mixer      | 450    | 2024-01-15 |                                      |
